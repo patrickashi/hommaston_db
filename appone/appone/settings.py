@@ -54,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
+    'https://patrickpeko.pythonanywhere.com',
     # add other origins as needed
 ]
 
