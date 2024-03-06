@@ -38,7 +38,7 @@ def form_submission(request):
             send_mail(
                 'Message Received',
                 'Thank you for contacting us. Your message has been received successfully.',
-                [settings.EMAIL_HOST_USER],
+                settings.EMAIL_HOST_USER,
                 [email],
                 fail_silently=False,
             )
