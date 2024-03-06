@@ -54,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://patrickpeko.pythonanywhere.com',
+    'https://hommaston.vercel.app',
     # add other origins as needed
 ]
 
